@@ -1,5 +1,6 @@
 1. install supervisor
         sudo apt install supervisor
+        sudo systemctl status supervisor.service 
 
 2. all supervisor processes goes here
         /etc/supervisor/conf.d
